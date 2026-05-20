@@ -1,16 +1,465 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Mohamed Adem Ben Moussa">
-  <meta name="description" content="Database & Platform Engineer — Adaptive Portfolio">
-  <title>Mohamed Adem BEN MOUSSA — Database & Platform Engineer</title>
-  <link rel="icon" type="image/png" href="img/icon.png">
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Mohamed Adem Ben Moussa">
+	<meta name="description" content="Database & Platform Engineer - Portfolio">
+	<title>Mohamed Adem BEN MOUSSA — Database & Platform Engineer</title>
+	<link rel="icon" type="image/png" href="img/icon.png">
+	<link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
-  <div id="app"></div>
-  <script src="js/script.js"></script>
+	<!-- Navigation -->
+	<nav class="nav" role="navigation" aria-label="Main navigation">
+		<div class="nav-inner container">
+			<a href="#hero" class="nav-brand">Mohamed Adem <span>BEN MOUSSA</span></a>
+			<div class="nav-links">
+				<a href="#section-skills" class="nav-link" data-section="section-skills">Skills &amp; Technologies</a>
+				<a href="#section-experience" class="nav-link" data-section="section-experience">Experience</a>
+				<a href="#section-education" class="nav-link" data-section="section-education">Education</a>
+				<a href="#section-projects" class="nav-link" data-section="section-projects">Projects</a>
+				<a href="#section-hackathons" class="nav-link" data-section="section-hackathons">Hackathons</a>
+				<a href="#section-certifications" class="nav-link" data-section="section-certifications">Certifications</a>
+				<a href="#section-languages" class="nav-link" data-section="section-languages">Languages</a>
+				<a href="#section-interests" class="nav-link" data-section="section-interests">Interests</a>
+				<a href="#section-volunteering" class="nav-link" data-section="section-volunteering">Volunteer Work</a>
+				<a href="#section-links" class="nav-link" data-section="section-links">Connect</a>
+			</div>
+			<div style="display:flex;align-items:center;gap:4px">
+				<button class="theme-toggle" aria-label="Toggle theme" data-action="theme">
+					<span style="display:inline-flex">
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="theme-icon-light"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="theme-icon-dark" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+					</span>
+				</button>
+				<button class="mobile-menu-btn" aria-label="Toggle menu" data-action="menu"><span></span><span></span><span></span></button>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero -->
+	<section id="hero" class="hero" aria-label="Hero">
+		<div class="hero-bg">
+			<div class="hero-bg-gradient"></div>
+			<div class="hero-bg-gradient"></div>
+			<div class="hero-bg-gradient"></div>
+		</div>
+		<div class="container">
+			<div class="hero-grid">
+				<div>
+					<div class="hero-badge"><span class="hero-badge-dot"></span>Available for opportunities</div>
+					<h1 class="hero-name">Mohamed Adem <span>BEN MOUSSA</span></h1>
+					<p class="hero-role">Database &amp; Platform Engineer</p>
+					<p class="hero-tagline">PostgreSQL &bull; Elasticsearch &bull; Linux &bull; ETL &bull; AML/KYC</p>
+					<p class="hero-uvp">Engineering Resilient Data Infrastructure for Mission-Critical Fintech</p>
+					<p class="hero-summary">Database &amp; Platform Engineer with 5+ years of experience in fintech, ensuring production stability and data integrity for AML/KYC platforms used by 250+ financial institutions across 45+ countries. Specialized in PostgreSQL, ETL pipelines, distributed systems and production infrastructure, with a strong focus on high availability and performance optimization. Resolved 2,000+ production incidents at 93% SLA compliance across 32 environments. Ranked 1st in class (2022&ndash;2023).</p>
+					<div class="hero-contacts">
+						<a href="mailto:MohamedAdemBenMoussa@gmail.com" class="hero-contact">
+							<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+							MohamedAdemBenMoussa@gmail.com
+						</a>
+						<span class="hero-contact">
+							<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+							+216 27 192 074
+						</span>
+						<span class="hero-contact">
+							<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+							Tunis, Tunisia (Open to relocate)
+						</span>
+					</div>
+					<div class="hero-actions">
+						<a href="#section-projects" class="btn btn-primary">View Projects <span style="display:inline-flex;align-items:center;justify-content:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span></a>
+						<a href="mailto:MohamedAdemBenMoussa@gmail.com" class="btn btn-secondary">Get in Touch</a>
+						<a href="Mohamed_Adem_BEN_MOUSSA_Resume_EN.pdf" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+							<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
+							Resume
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="scroll-indicator">Scroll<div class="scroll-indicator-line"></div></div>
+	</section>
+
+	<!-- Skills & Technologies -->
+	<section id="section-skills" class="section" aria-label="Skills &amp; Technologies">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Skills &amp; Technologies</span>
+				<h2 class="section-title">Skills &amp; Technologies</h2>
+			</div>
+			<div class="skill-group reveal reveal-delay-1">
+				<h3 class="skill-group-title">Databases</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">PostgreSQL</span>
+					<span class="skill-tag reveal">PL/SQL</span>
+					<span class="skill-tag reveal">MySQL</span>
+					<span class="skill-tag reveal">Oracle</span>
+					<span class="skill-tag reveal">SQL Server</span>
+					<span class="skill-tag reveal">MariaDB</span>
+				</div>
+			</div>
+			<div class="skill-group reveal reveal-delay-2">
+				<h3 class="skill-group-title">Search &amp; Analytics</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">Elasticsearch</span>
+					<span class="skill-tag reveal">Jaspersoft Studio</span>
+					<span class="skill-tag reveal">Talend ETL</span>
+				</div>
+			</div>
+			<div class="skill-group reveal reveal-delay-3">
+				<h3 class="skill-group-title">Infrastructure</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">Linux (RHEL/Ubuntu/CentOS)</span>
+					<span class="skill-tag reveal">Windows Server</span>
+					<span class="skill-tag reveal">Apache Tomcat</span>
+					<span class="skill-tag reveal">Nginx</span>
+					<span class="skill-tag reveal">Systemd</span>
+					<span class="skill-tag reveal">High Availability</span>
+					<span class="skill-tag reveal">Backup/Recovery</span>
+				</div>
+			</div>
+			<div class="skill-group reveal reveal-delay-4">
+				<h3 class="skill-group-title">Workflows &amp; Rules</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">Camunda BPMN</span>
+					<span class="skill-tag reveal">FormIO</span>
+					<span class="skill-tag reveal">Reis&trade; Rule Engine</span>
+					<span class="skill-tag reveal">AML/KYC Workflows</span>
+				</div>
+			</div>
+			<div class="skill-group reveal reveal-delay-5">
+				<h3 class="skill-group-title">Security</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">Suricata (IDS)</span>
+					<span class="skill-tag reveal">Wazuh (SIEM)</span>
+				</div>
+			</div>
+			<div class="skill-group reveal reveal-delay-6">
+				<h3 class="skill-group-title">Identity &amp; Access</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">Active Directory</span>
+					<span class="skill-tag reveal">LDAP</span>
+					<span class="skill-tag reveal">GLPI</span>
+				</div>
+			</div>
+			<div class="skill-group reveal reveal-delay-5">
+				<h3 class="skill-group-title">Scripting &amp; Development</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">Bash</span>
+					<span class="skill-tag reveal">PowerShell</span>
+					<span class="skill-tag reveal">JavaScript</span>
+					<span class="skill-tag reveal">PHP</span>
+					<span class="skill-tag reveal">Java</span>
+				</div>
+			</div>
+			<div class="skill-group reveal reveal-delay-6">
+				<h3 class="skill-group-title">Tools &amp; Platforms</h3>
+				<div class="skills-cloud stagger-children">
+					<span class="skill-tag reveal">JIRA</span>
+					<span class="skill-tag reveal">Confluence</span>
+					<span class="skill-tag reveal">Notion</span>
+					<span class="skill-tag reveal">Postman</span>
+					<span class="skill-tag reveal">pgAdmin</span>
+					<span class="skill-tag reveal">DBeaver</span>
+					<span class="skill-tag reveal">pgtune</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Experience -->
+	<section id="section-experience" class="section" aria-label="Experience">
+		<div class="container container-narrow">
+			<div class="section-header reveal">
+				<span class="section-label">Experience</span>
+				<h2 class="section-title">Experience</h2>
+			</div>
+			<ul class="timeline stagger-children">
+				<li class="timeline-item reveal">
+					<div class="timeline-dot"><div class="timeline-dot-inner"></div></div>
+					<div class="timeline-card">
+						<span class="timeline-date">Jan 2021 &ndash; May 2026</span>
+						<h3 class="timeline-title">Database &amp; Systems Engineer</h3>
+						<p class="timeline-subtitle">Vneuron &middot; Charguia 2, Tunisia</p>
+						<ul class="timeline-bullets">
+							<li>Lead production stability and data integrity across 32 high-tier financial institutions.</li>
+							<li>Developed PL/SQL batch processing scripts to safely purge 96M+ orphaned records without table locks, reducing execution from hours to under 13 minutes.</li>
+							<li>Resolved 2,000+ production incidents at 93% SLA compliance.</li>
+							<li>Optimized PL/SQL queries and indexing strategies on multi-million row tables.</li>
+							<li>Managed multi-tenant PostgreSQL deployments, maintained Elasticsearch clusters for real-time KYC sanction screening.</li>
+							<li>Designed AML/KYC risk indicator rules, Camunda BPMN workflows, and FormIO forms.</li>
+							<li>Built Talend ETL pipelines and automated monthly Jaspersoft Studio reports.</li>
+							<li>Administered Apache Tomcat and Nginx with SSL and system hardening.</li>
+							<li>Mentored junior engineers and documented procedures in Confluence.</li>
+						</ul>
+					</div>
+				</li>
+				<li class="timeline-item reveal">
+					<div class="timeline-dot"><div class="timeline-dot-inner"></div></div>
+					<div class="timeline-card">
+						<span class="timeline-date">Jul 2020 &ndash; Jan 2021</span>
+						<h3 class="timeline-title">Software Integration Consultant</h3>
+						<p class="timeline-subtitle">Vneuron &middot; Charguia 2, Tunisia</p>
+						<ul class="timeline-bullets">
+							<li>Deployed and configured AML/KYC platforms for new clients including PostgreSQL, Elasticsearch, Apache Tomcat, and Nginx environments.</li>
+							<li>Built Talend ETL pipelines for client data migration.</li>
+							<li>Configured AML risk indicators, Camunda BPMN workflows, and FormIO forms.</li>
+							<li>Developed compliance dashboards with Jaspersoft Studio.</li>
+							<li>Automated PostgreSQL backup processes using Bash and PowerShell.</li>
+							<li>Supported testing, validation, and client acceptance phases.</li>
+							<li>Produced technical documentation for deployed solutions.</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Education -->
+	<section id="section-education" class="section" aria-label="Education">
+		<div class="container container-narrow">
+			<div class="section-header reveal">
+				<span class="section-label">Education</span>
+				<h2 class="section-title">Education</h2>
+			</div>
+			<ul class="timeline stagger-children">
+				<li class="timeline-item reveal">
+					<div class="timeline-dot"><div class="timeline-dot-inner"></div></div>
+					<div class="timeline-card">
+						<span class="timeline-date">Oct 2020 &ndash; Sep 2024</span>
+						<h3 class="timeline-title">National Engineering Degree in Computer Science</h3>
+						<p class="timeline-subtitle">SESAME University &middot; Ariana, Tunisia</p>
+						<ul class="timeline-bullets">
+							<li>GPA: 3.5/4.0 &middot; Ranked 1st in class, 2022-2023 &middot; Final year: 16.86/20 (4.0/4.0).</li>
+							<li>Official equivalence recognized by Ministry of Higher Education (Decision N&deg;1555, Feb 2025).</li>
+							<li>Graduation Project: Securing an AML Suite with an Advanced IDS (Suricata + Wazuh).</li>
+						</ul>
+					</div>
+				</li>
+				<li class="timeline-item reveal">
+					<div class="timeline-dot"><div class="timeline-dot-inner"></div></div>
+					<div class="timeline-card">
+						<span class="timeline-date">Sep 2017 &ndash; Jul 2020</span>
+						<h3 class="timeline-title">Bachelor&rsquo;s Degree in Computer Science</h3>
+						<p class="timeline-subtitle">ISTIC University &middot; Borj Cedria, Tunisia</p>
+						<ul class="timeline-bullets">
+							<li>Graduation Project: Remote Control Light Switch Using IoT Technology (Arduino, Raspberry Pi).</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Projects -->
+	<section id="section-projects" class="section" aria-label="Projects">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Projects</span>
+				<h2 class="section-title">Projects</h2>
+			</div>
+			<div class="cards-grid stagger-children">
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Automated Apache Tomcat Upgrade &amp; Deployment Script (RHEL)</h3>
+					<p class="project-card-desc">Developed a Bash automation script to install and upgrade Apache Tomcat (9.x) across production servers. Automated configuration migration, permission management, and systemd service updates. Reduced manual deployment effort and minimized configuration drift.</p>
+					<div class="project-card-tech">
+						<span class="project-card-tech-tag">Bash</span>
+						<span class="project-card-tech-tag">Apache Tomcat</span>
+						<span class="project-card-tech-tag">RHEL</span>
+						<span class="project-card-tech-tag">Systemd</span>
+					</div>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Securing an AML/KYC Platform with IDS &amp; SIEM</h3>
+					<p class="project-card-desc">Deployed Suricata (IDS) and Wazuh (SIEM) to secure a financial compliance platform. Configured centralized log collection and correlation across multiple servers for real-time threat detection. Conducted vulnerability analysis and performance testing.</p>
+					<div class="project-card-tech">
+						<span class="project-card-tech-tag">Suricata</span>
+						<span class="project-card-tech-tag">Wazuh</span>
+						<span class="project-card-tech-tag">ELK</span>
+						<span class="project-card-tech-tag">Linux</span>
+					</div>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">LightWays &ndash; Full-Stack IoT Lighting Control System</h3>
+					<p class="project-card-desc">Full-stack web IoT system for remote monitoring and control of smart lighting. Back-end with PHP and MySQL on Raspberry Pi. Front-end with HTML5, CSS3, JavaScript, jQuery, AJAX, and UIkit. Device control via IP-based communication with Arduino modules using JSON.</p>
+					<div class="project-card-tech">
+						<span class="project-card-tech-tag">PHP</span>
+						<span class="project-card-tech-tag">MySQL</span>
+						<span class="project-card-tech-tag">JavaScript</span>
+						<span class="project-card-tech-tag">Arduino</span>
+						<span class="project-card-tech-tag">Raspberry Pi</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Hackathons -->
+	<section id="section-hackathons" class="section" aria-label="Hackathons">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Hackathons</span>
+				<h2 class="section-title">Hackathons</h2>
+			</div>
+			<div class="cards-grid stagger-children">
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Hacker l'&Eacute;pargne</h3>
+					<p class="project-card-subtitle">Enda Inter-Arabe</p>
+					<p class="project-card-desc">Apr 2026 &middot; 2nd Place<br>Developed Enda Tao+ with digital savings circle management (Enda Sandouk) and collaborative expense splitting (Enda 50/50).<br>Awarded Prix de la Pers&eacute;v&eacute;rance et de l'Assiduit&eacute;.</p>
+					<a href="https://www.endarabe.org.tn/2026/04/16/retour-sur-hacker-lepargne-un-defi-des-idees-des-laureats/" class="project-card-link" target="_blank" rel="noopener noreferrer">Results <span style="display:inline-flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span></a>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Challenge NEXT</h3>
+					<p class="project-card-subtitle">BH Assurances</p>
+					<p class="project-card-desc">Aug&ndash;Sep 2025<br>Created a GenAI sales recommendation agent for analyzing customer portfolios and generating personalized sales pitches.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Hackathon 2.0</h3>
+					<p class="project-card-subtitle">ATLAS Future Leaders &ndash; TBS Chapter</p>
+					<p class="project-card-desc">Feb 2020<br>Developed a Scrum Agile-based platform for organizing and prioritizing projects in a flexible manner.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Municipality Hackathon</h3>
+					<p class="project-card-subtitle">JCI Les Berges du Lac</p>
+					<p class="project-card-desc">Nov 2019 &middot; 2nd Place<br>Developed a digital platform for the Municipality of Carthage.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Code4Tunisia</h3>
+					<p class="project-card-subtitle">Go My Code</p>
+					<p class="project-card-desc">Aug 2019<br>Developed a platform to discover and improve intelligence skills.<br>Partnerships: Jumia, PNUD Tunisie, ULT.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">NIT Day Challenge</h3>
+					<p class="project-card-subtitle">INSAT</p>
+					<p class="project-card-desc">Apr 2019 &middot; 2nd Place<br>Built a website helping Alzheimer's patients remember daily duties, managed by a supervisor.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Google Hash Code</h3>
+					<p class="project-card-subtitle">ISTIC Google Club</p>
+					<p class="project-card-desc">Feb 2019<br>Ranked 25th in Tunisia / 3153rd Worldwide.<br>Solved a technical optimization problem by Google.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Agil Mobile Application</h3>
+					<p class="project-card-subtitle">Agil</p>
+					<p class="project-card-desc">Feb 2019<br>Built a PWA to facilitate oil ordering at depots for Agil service stations.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Global Game Jam 2K19</h3>
+					<p class="project-card-subtitle">Tek-Up Junior Enterprise</p>
+					<p class="project-card-desc">Jan 2019<br>Developed a game using Unity 3D.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Coding Land V4.0</h3>
+					<p class="project-card-subtitle">ISAMM Microsoft Club</p>
+					<p class="project-card-desc">Dec 2018<br>Built a website to host activities and facilitate participation.</p>
+				</div>
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Hackathon 3.0 &ndash; Code your Road</h3>
+					<p class="project-card-subtitle">AIESEC Bardo</p>
+					<p class="project-card-desc">Dec 2018<br>Built a platform connecting workers with people needing their services.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Certifications -->
+	<section id="section-certifications" class="section" aria-label="Certifications">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Certifications</span>
+				<h2 class="section-title">Certifications</h2>
+			</div>
+			<div class="skills-cloud stagger-children">
+				<span class="skill-tag reveal">Information Technology Specialist in Databases &ndash; Certiport (Jun 2022)</span>
+			</div>
+		</div>
+	</section>
+
+	<!-- Languages -->
+	<section id="section-languages" class="section" aria-label="Languages">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Languages</span>
+				<h2 class="section-title">Languages</h2>
+			</div>
+			<div class="skills-cloud stagger-children">
+				<span class="skill-tag reveal">Arabic (Native)</span>
+				<span class="skill-tag reveal">English (Professional Working)</span>
+				<span class="skill-tag reveal">French (Professional Working)</span>
+			</div>
+		</div>
+	</section>
+
+	<!-- Interests -->
+	<section id="section-interests" class="section" aria-label="Interests">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Interests</span>
+				<h2 class="section-title">Interests</h2>
+			</div>
+			<div class="skills-cloud stagger-children">
+				<span class="skill-tag reveal">Beekeeping</span>
+				<span class="skill-tag reveal">Reading</span>
+				<span class="skill-tag reveal">Traveling</span>
+			</div>
+		</div>
+	</section>
+
+	<!-- Volunteer Work -->
+	<section id="section-volunteering" class="section" aria-label="Volunteer Work">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Volunteer Work</span>
+				<h2 class="section-title">Volunteer Work</h2>
+			</div>
+			<div class="cards-grid stagger-children">
+				<div class="project-card reveal reveal-scale">
+					<h3 class="project-card-title">Visual Content Volunteer</h3>
+					<p class="project-card-subtitle">Tunisian Red Crescent, Local Committee of Hammam Chatt</p>
+					<p class="project-card-desc">2020 &middot; Created promotional posters and awareness materials using Canva to support local humanitarian campaigns.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Connect -->
+	<section id="section-links" class="section" aria-label="Connect">
+		<div class="container">
+			<div class="section-header reveal">
+				<span class="section-label">Connect</span>
+				<h2 class="section-title">Connect</h2>
+			</div>
+			<div class="links-grid stagger-children">
+				<a href="https://github.com/Adeeeeem" class="link-card reveal" target="_blank" rel="noopener noreferrer" aria-label="Github">
+					<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></span>
+					Github
+				</a>
+				<a href="https://linkedin.com/in/mohamedadembenmoussa" class="link-card reveal" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+					<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+					Linkedin
+				</a>
+				<a href="mailto:MohamedAdemBenMoussa@gmail.com" class="link-card reveal" target="_blank" rel="noopener noreferrer" aria-label="Email">
+					<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+					MohamedAdemBenMoussa@gmail.com
+				</a>
+				<a href="https://drive.google.com/drive/folders/1ttkY7bSkKpppwAQJKALYBFpRYOE1NgeG?usp=drive_link" class="link-card reveal" target="_blank" rel="noopener noreferrer" aria-label="Certificates &amp; Diplomas">
+					<span style="display:inline-flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
+					Certificates &amp; Diplomas
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer" role="contentinfo">
+		<div class="container">
+			<p class="footer-text">&copy; 2026 Mohamed Adem. Built with the Adaptive Portfolio Engine.</p>
+		</div>
+	</footer>
+
+	<script src="js/script.js?v=2"></script>
 </body>
 </html>
