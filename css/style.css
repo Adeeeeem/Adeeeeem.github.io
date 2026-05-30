@@ -165,7 +165,7 @@ ul, ol { list-style: none; }
 .hero-badge {
   display: inline-flex; align-items: center; gap: var(--space-1);
   font-size: 0.8rem; font-weight: 500; color: var(--accent);
-  background: rgba(99, 102, 241, 0.1); border: 1px solid var(--border-accent);
+  background: var(--accent-glow); border: 1px solid var(--border-accent);
   padding: var(--space-1) var(--space-2); border-radius: var(--radius-full);
   margin-bottom: var(--space-2); width: fit-content;
 }
